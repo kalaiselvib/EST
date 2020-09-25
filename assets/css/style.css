@@ -1,6 +1,6 @@
 
     .secondary-bg{
-        background-image:linear-gradient(45deg, rgb(255, 101, 37) 15%, rgb(255, 169, 66) 100%);
+        background-color: #ff6525;
     }
     .secondary-text{
         color:  rgb(255, 101, 37);
@@ -197,10 +197,44 @@
         margin-left: 20px;
     }
 
-  
+  /*****************************************ABOUT****************************************************************/
+  .about-background{
+      background: url('../images/background-banner.jpg') center no-repeat;
+      background-size: cover;
+      height: 50vh;
+      position: relative;
+      
+  }
+.about-background .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.about-container .about-img{
+      background: url('../images/about.jpg')center no-repeat;
+      background-size: cover;
+      width: 400px;
+      height: 500px;
+      border-bottom-left-radius: 80px;
+    
+}
+.about-container .section{
+    padding: 3.5em 0em;
+}
+.about-container h2.heading-text{
+    font-family: 'montserratbold';
+  font-size: 30px;
+}
+.about-container p{
+    font-family: 'montserratmedium' ; 
+    font-size: 14px;
+}
     @media screen and (max-width: 480px) {
     .section{
-        padding: 10em 0em;
+        padding: 3.5em 0em;
     }
     .btn {
     width: 175px;
@@ -245,5 +279,14 @@
     section.what-we-do .box-container{
         flex-direction: column;
         }
-    
+        .about-container .about-img{
+            background-size: contain;
+            height: 250px;
+        }
+        .about-container .section{
+            padding: 1.5em 1em;
+        }
+        .about-container h2.heading-text{ 
+          font-size: 20px;
+        }
 }
