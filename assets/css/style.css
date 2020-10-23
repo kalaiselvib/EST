@@ -1,4 +1,6 @@
-    
+    a:hover{
+        text-decoration: none;
+    }
     .secondary-bg{
     background-color: #ff6525;
     }
@@ -187,7 +189,6 @@
     .about-background{
     background-image: url('../images/background-banner.jpg');
     height: 50vh;
-
     }
     .about-background .overlay{
     position: absolute;
@@ -204,16 +205,20 @@
     height: 500px;
     border-bottom-left-radius: 80px;
     }
+    .about-container .about-para-text {
+        font-size: 23px;
+        padding: 30px 0px;
+    }
     .about-container .section{
     padding: 3.5em 0em;
     }
     .about-container h2.heading-text{
     font-family: 'montserratbold';
-    font-size: 30px;
+    font-size: 33px;
     }
     .about-container p{
     font-family: 'montserratmedium' ; 
-    font-size: 14px;
+    font-size: 16px;
     }
     /*****************************************MANAGEMENT****************************************************************/
     section.management .partner-about{
