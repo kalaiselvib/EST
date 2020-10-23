@@ -1,16 +1,15 @@
-
+    
     .secondary-bg{
-        background-color: #ff6525;
+    background-color: #ff6525;
     }
     .secondary-text{
-        color:  rgb(255, 101, 37);
+    color:  rgb(255, 101, 37);
     }
-    
     body,html{
     overflow-x: hidden;
     }
     .heading-text{
-        color: #213e6e;
+    color: #213e6e;
     }
     .navbar-brand img{
     height: 40px;
@@ -19,40 +18,35 @@
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     position: relative;
-    display: block; 
+  
     }
     .section{
     padding: 7em 0;
     }
     .content-img{
-        height: 100%;
-        width: 100%;
+    height: 100%;
+    width: 100%;
     }
     .section .section-title h2{
     font-family: 'montserratbold' ; 
-    font-size: 40px;
     }
     .section .section-title p{
     font-size: 20px; 
     padding: 20px 0px;
     opacity: 0.8;
     }
-    .intro{  
-    height: 90vh;
-    }
+    /********************************************************************INTRO SECTION  ******************************************************/
     .intro .banner-content {
     padding: 40px 40px 0px 40px;
     }
     .intro  .banner-content  h1 {
- 
     font-size: 50px;
     font-weight: 700;
     line-height: 1.3;
     }
     .intro .banner-content p.intro-text {
-  
     font-size: 20px;
     line-height: 1.765;
     }
@@ -60,7 +54,7 @@
     font-family: 'poppinsextralight';
     font-weight: 500;
     }
-     .banner-btn a{
+    .banner-btn a{
     background-color:  #5a66d4;
     box-shadow: 1.392px 9.903px 10px 0px rgba(66, 97, 234, 0.21);
     }
@@ -68,10 +62,8 @@
     position: relative;
     left: 0;
     bottom: 0;
-
     animation: MoveUpDown 6s linear infinite;
     }
-    
     .circle-1 {
     position: absolute;
     overflow: hidden;
@@ -118,9 +110,9 @@
     bottom: 80px;
     }
     }
+    /********************************************************************WHAT WE DO SECTION  ******************************************************/
     section.what-we-do .box-container{
     justify-content: space-evenly;
-
     }
     section.what-we-do .box-container .box-content{
     box-shadow: 0px 0px 35px 0px rgba(164, 177, 235, 0.13);
@@ -128,9 +120,8 @@
     padding: 60px 30px;
     }
     section.what-we-do .box-container .box-content:hover{
-       
-        transform: scale(1);
-        transition:  700ms;
+    transform: scale(1);
+    transition:  700ms;
     }
     section.what-we-do .box-content .box-icon{
     display: flex;
@@ -142,11 +133,10 @@
     font-weight: 300;
     margin-bottom: 30px;
     color: #fff;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 100%;
     background-color: #828acf;
-    vertical-align: middle;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -162,79 +152,171 @@
     section.what-we-do .box-content .box-info{
     line-height: 1.75;   
     }
+    /********************************************************************LATEST WORK SECTION  ******************************************************/
     section.latest-work {
-        background-color: #f4f8ff;
-
+    background-color: #f4f8ff;
     }
-   
     section.latest-work .latestwork-content{
-        padding: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
     }
     section.latest-work .latestwork-content .work-title{
-        font-size: 30px;
+    font-size: 30px;
     }
     section.latest-work .latestwork-content ul li{
-       margin-top: 25px;
-        list-style: none;
-        font-family: 'montserratmedium' ; 
+    margin-top: 25px;
+    list-style: none;
+    font-family: 'montserratmedium' ; 
     }
     section.latest-work .latestwork-content .check{
-        height: 15px;
+    height: 15px;
     }
-  
-   
     section.footer-section{
-        background-color: #191d42;
-        font-family: 'montserratmedium' ; 
+    background-color: #191d42;
+    font-family: 'montserratmedium' ; 
     }
     section.footer-section p{
-        font-size: 14px;
-        margin:20px 0px;
+    font-size: 14px;
+    margin:20px 0px;
     }
     section.footer-section .social-media i{
-        color: #fff;
-        font-size: 20px;
-        margin-left: 20px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
     }
+    /*****************************************ABOUT****************************************************************/
+    .about-background{
+    background-image: url('../images/background-banner.jpg');
+    height: 50vh;
 
-  /*****************************************ABOUT****************************************************************/
-  .about-background{
-      background: url('../images/background-banner.jpg') center no-repeat;
-      background-size: cover;
-      height: 50vh;
-      position: relative;
-      
-  }
-.about-background .overlay{
+    }
+    .about-background .overlay{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.2);
-}
-.about-container .about-img{
-      background: url('../images/about.jpg')center no-repeat;
-      background-size: cover;
-      width: 400px;
-      height: 500px;
-      border-bottom-left-radius: 80px;
-    
-}
-.about-container .section{
+    }
+    .about-container .about-img{
+    background: url('../images/about.jpg')center no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    border-bottom-left-radius: 80px;
+    }
+    .about-container .section{
     padding: 3.5em 0em;
-}
-.about-container h2.heading-text{
+    }
+    .about-container h2.heading-text{
     font-family: 'montserratbold';
-  font-size: 30px;
-}
-.about-container p{
+    font-size: 30px;
+    }
+    .about-container p{
     font-family: 'montserratmedium' ; 
     font-size: 14px;
-}
+    }
+    /*****************************************MANAGEMENT****************************************************************/
+    section.management .partner-about{
+    padding:50px 0px;
+    }
+    section.management .partner-about h3.name{
+    font-family: 'montserratbold';
+    }
+    section.management .partner-about p
+    {
+    font-family: 'poppinslight';
+    }
+    section.management .img-pattern{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    }
+    .img-pattern .box {
+    width: 50vmin;
+    height: 50vmin;
+    position: relative;
+    overflow: hidden; 
+    }
+    .img-pattern .box .shape {
+    width: 100%;
+    height: 100%;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5;
+    }
+    .shape .image {
+    width: 142%;
+    height: 142%;
+    position: absolute;
+    left: -21%;
+    top: -21%;
+    background-size: 100%;
+    z-index: 2;
+    }
+    .shape .image.image-1{
+    background: url('../images/krish.jpg') no-repeat center;
+    }
+    .shape .image.image-2{
+    background: url('../images/manick.jpg') no-repeat center;
+    }
+    .shape .image.image-3{
+    background: url('../images/sarathy.jpg') no-repeat center;
+    }
+    .shape .image.image-4{
+    background: url('../images/rachel.jpg') no-repeat center;
+    }
+    section.management .social-media-links i{
+    font-size:20px;
+    margin-right: 30px;
+    background-color: #191d42;
+    padding: 6px 8px;
+    }
+    /*****************************************CAREERS PAGE****************************************************************/
+    .title{
+    font-size: 46px;
+    text-align: center;
+    }
+    .positions-list ul {
+    list-style: none;
+    list-style-type: none;
+    }
+    .positions-list ul li{
+    margin: 30px 0px;
+    }
+    .positions-list ul li a{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #222;
+    }
+    .positions-list ul li a .know-more-btn{
+    border-radius: 10px;
+    border: 0.5px solid black;
+    padding: 0px 10px;
+    font-size: 14px;
+    }
+    /*****************************************CAREERS SUBPAGE****************************************************************/
+    .job-header{
+    background-color: #2c39b6;
+    padding: 45px 0px;
+    }
+    .description{
+    padding-left: 30px;
+    }
+    .description ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    .description ul li{
+    line-height: 29px;
+    margin-bottom: 24px;
+    }
     @media screen and (max-width: 480px) {
     .section{
-        padding: 3.5em 0em;
+    padding: 3.5em 0em;
     }
     .btn {
     width: 175px;
@@ -244,13 +326,11 @@
     height: 55px;
     }
     .section .section-title h2{
-      
-        font-size: 32px;
-        }
-        .section .section-title p{
-        font-size: 18px; 
-        
-        }
+    font-size: 32px;
+    }
+    .section .section-title p{
+    font-size: 18px; 
+    }
     .circle-1 {
     width: 107vw;
     height: 65vw;
@@ -277,16 +357,16 @@
     font-size: 22px;
     }
     section.what-we-do .box-container{
-        flex-direction: column;
-        }
-        .about-container .about-img{
-            background-size: contain;
-            height: 250px;
-        }
-        .about-container .section{
-            padding: 1.5em 1em;
-        }
-        .about-container h2.heading-text{ 
-          font-size: 20px;
-        }
-}
+    flex-direction: column;
+    }
+    .about-container .about-img{
+    background-size: contain;
+    height: 250px;
+    }
+    .about-container .section{
+    padding: 1.5em 1em;
+    }
+    .about-container h2.heading-text{ 
+    font-size: 20px;
+    }
+    }
