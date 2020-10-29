@@ -1,4 +1,10 @@
-    a:hover, a:focus{
+
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+  
+a:hover, a:focus{
         text-decoration: none;
     }
     .secondary-bg{
@@ -206,30 +212,13 @@
     section.get-started {
         position: relative;
     }
-    section.get-started .parallax-img{
+    section.get-started{
         padding: 15em 0;
-        background: #202044;
     }
 
-    section.get-started .parallax-img:after{
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: -50px;
-        overflow: visible;
-        width: 100%;
-        height: 120px;
-        z-index: 0;
-        -webkit-transform: skewY(4deg);
-        -moz-transform: skewY(4deg);
-        -ms-transform: skewY(4deg);
-        -o-transform: skewY(4deg);
-        transform: skewY(4deg);
-        background-color: #fff;
-    }
     /*****************************************PRACTICES****************************************************************/
     .practices-section .service-text {
-        padding: 10px 80px;
+        padding: 10px 50px;
     }
     .practices-section .service-text h3{
         font-family: 'poppinsmedium';
@@ -251,7 +240,20 @@
         list-style-type: none;
         margin-top: 20px;
     }
-    
+    .practices-section .service-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .practices-section .service-item .icon-box{
+       background-color: #191d42;
+       padding:5px 15px;
+        
+    }
+    .practices-section .service-item i{
+        font-size: 25px;
+        color: #fff;
+    }
     /*****************************************ABOUT****************************************************************/
     .about-background{
     background-image: url('../images/background-banner.jpg');

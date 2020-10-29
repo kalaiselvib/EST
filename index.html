@@ -10,14 +10,19 @@
       <link rel="stylesheet" href="assets/css/style.css">
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+      
+    
    </head>
    <body>
-      <section class="intro" >
+      <section class="intro " >
          <div class="container">
             <div class="circle-1"></div>
             <div class="circle-2">
             </div>
-            <header>
+            <header class="animate__animated animate__fadeIn">
                <nav class="navbar navbar-expand-md">
                   <a href="/" class="navbar-brand text-white">
                   <img src="assets/images/logo.png">
@@ -88,7 +93,7 @@
                   </div>
                </nav>
             </header>
-            <div class="section row align-items-center banner">
+            <div class="section row align-items-center banner animate__animated animate__fadeInUpBig">
                <div class="col-lg-6 col-sm-12 col-xs-12 banner-content">
                   <h1 class="heading-text">Cloud Apps - Your Ideas <br> our Solutions</h1>
                   <p class="intro-text heading-text">Lorem, ipsum is architecto obcaecarepellendus possimus, voluptatem at!</p>
@@ -113,7 +118,7 @@
                <p class="section-info">We are helping small businesses with cost effective IT automation solution and services.</p>
             </div>
             <div class="box-container d-flex align-items-center text-center">
-               <div class="box-content">
+               <div class="box-content" data-aos="fade-up"  data-aos-delay="300">
                   <div class="box-icon" > 
                      <i class="fas fa-lightbulb" style="color: #78d5ef; background-color: #eaf8fd;"></i>
                   </div>
@@ -122,21 +127,21 @@
                      Our team with expertise on specific ERP / CRM product &amp; their APIs can help you build / integrate apps faster.
                   </p>
                </div>
-               <div class="box-content">
-                  <div class="box-icon"> 
+               <div class="box-content" data-aos="fade-up"  data-aos-delay="700">
+                  <div class="box-icon" > 
                      <i class="far fa-compass" style="color:#88f1bc; background-color: #ebfdf4;"></i>
                   </div>
                   <h3 class="box-heading">Agile Approach</h3>
                   <p class="box-info">Our well defined project management process with customer’s business needs at the core, put more emphasis on business relevant solutions.</p>
                </div>
-               <div class="box-content ">
+               <div class="box-content" data-aos="fade-up"   data-aos-delay="1000">
                   <div class="box-icon"> 
                      <i class="far fa-thumbs-up" style="color:#ef7cb1; background-color: #fce7f1;"></i>
                   </div>
                   <h3 class="box-heading">High Quality Code</h3>
                   <p class="box-info">Technology evangelists in our team ensure we “Think Twice… and Code Once” with industries’ best standards and highly reusable practices.</p>
                </div>
-               <div class="box-content ">
+               <div class="box-content" data-aos="fade-up"  data-aos-delay="1300">
                   <div class="box-icon"> 
                      <i class="far fa-comments"  style="color:#efac78; background-color: #fdf2ea;"></i>
                   </div>
@@ -155,11 +160,11 @@
                <h2 class="section-heading mb-2">OUR LATEST WORK </h2>
             </div>
             <div class="row no-gutters">
-                  <div class="col-lg-6 ">
+                  <div class="col-lg-6" data-aos="fade-down">
                      <div class="background-image latest__work__image"></div>
 
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-6" data-aos="fade-in-right" data-aos-delay="1000">
                         <div class="latestwork-content">
                         <h3 class="work-title heading-text text-center">Connecting SAGE with Salesforce - <br><strong>
                            Outdure
@@ -174,15 +179,15 @@
                            <li>  <img src="assets/images/check.png" class="check"> Sales rep can see any Invoice been generated and even they can see any payment has been received or pending from clients using Salesforce without having an access to ERP system at the backend.</li>
                            <li> <img src="assets/images/check.png" class="check"> EST’s sync helps Outdure in their business process saving huge time in communication between operations, finance and sales team.</li>
                         </ul>
-                        <div class="banner-btn mt-5 text-center">
+                        <div class="banner-btn mt-4 pb-5 text-center">
                            <a href="http://www.outdure.com/" class="btn">GO TO WEBSITE</a>
                         </div>
                      </div>
                   </div>
                </div>
                <div class="row no-gutters">  
-                  <div class="col-lg-6">
-                     <div class="latestwork-content">
+                  <div class="col-lg-6"  data-aos="zoom-in-left">
+                     <div class="latestwork-content" data-aos-delay="2000">
                         <h3 class="work-title heading-text text-center"> Batch emailing of invoices- <br><strong>
                            Bradley Enterprises
                            </strong>
@@ -194,12 +199,12 @@
                            <li><img src="assets/images/check.png" class="check">  User has the option to choose to send via Outlook or directly via SMTP makes the process simplified. </li>
                            <li>  <img src="assets/images/check.png" class="check">A simple, yet powerful utility saves hours and hours of manual effort for someone in the AR team by completely automating the process.</li>
                         </ul>
-                        <div class="banner-btn mt-5 text-center">
+                        <div class="banner-btn mt-3 text-center">
                            <a href="http://www.qbpro-la.com/" class="btn">GO TO WEBSITE</a>
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-6" data-aos="fade-down" data-aos-delay="1000">
                      <div class="background-image latest__work__image" style="background-image: url(assets/images/workdesk.jpg);"></div>
 
                   </div>
@@ -245,19 +250,19 @@
          </div>
       </section>
       <section class="section get-started">
-         <div class="background-image parallax-img">
+        
             <div class="container">
                <div class="row">
-                  <div class="col-lg-7">
-                     <h1 class="text-white">Intrested To <br> Get Our Service</h1>
+                  <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+                     <h1 style="color: #403e57;">Contact Us to recieve <br>any further information</h1>
                   </div>
-                  <div class="col-lg-5">
+                  <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000">
                      <div class="text-center">
                         <a href="" class="btn secondary-bg">GET STARTED NOW</a>
                      </div>
                   </div>
                </div>
-            </div>
+          
          </div>
         
       </section>
@@ -319,6 +324,7 @@
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/popper.min.js"></script>
       <script src="assets/js/bootstrap.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script src="assets/js/script.js"></script>
    </body>
 </html>
