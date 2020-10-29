@@ -1,4 +1,4 @@
-    a:hover{
+    a:hover, a:focus{
         text-decoration: none;
     }
     .secondary-bg{
@@ -27,18 +27,47 @@
     .section{
     padding: 7em 0;
     }
+    .content-pad{
+        padding: 5em 0;
+        
+    }
     .content-img{
     height: 100%;
     width: 100%;
     }
+    .section .section-title {
+        padding: 50px 0px;
+    }
     .section .section-title h2{
     font-family: 'montserratbold' ; 
+   
     }
     .section .section-title p{
     font-size: 20px; 
     padding: 20px 0px;
     opacity: 0.8;
     }
+    .para-text {
+        font-size: 23px;
+        padding: 30px 0px;
+    }
+    .box-icon{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        }
+          .box-icon i{
+        font-size: 48px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        }
     /********************************************************************INTRO SECTION  ******************************************************/
     .intro .banner-content {
     padding: 40px 40px 0px 40px;
@@ -57,7 +86,8 @@
     font-weight: 500;
     }
     .banner-btn a{
-    background-color:  #5a66d4;
+        background-color: #fe774a;
+   /*// background-color:  #5a66d4; */
     box-shadow: 1.392px 9.903px 10px 0px rgba(66, 97, 234, 0.21);
     }
     .intro img{
@@ -116,48 +146,35 @@
     section.what-we-do .box-container{
     justify-content: space-evenly;
     }
-    section.what-we-do .box-container .box-content{
+     .box-container .box-content{
     box-shadow: 0px 0px 35px 0px rgba(164, 177, 235, 0.13);
     margin: 0px 10px;
     padding: 60px 30px;
     }
-    section.what-we-do .box-container .box-content:hover{
+    .box-container .box-content:hover{
     transform: scale(1);
     transition:  700ms;
     }
-    section.what-we-do .box-content .box-icon{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    }
-    section.what-we-do .box-content .box-icon i{
-    font-size: 48px;
-    font-weight: 300;
-    margin-bottom: 30px;
-    color: #fff;
-    width: 90px;
-    height: 90px;
-    border-radius: 100%;
-    background-color: #828acf;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    }
-    section.what-we-do .box-content .box-heading{
+ 
+     .box-content .box-heading{
     color: #213e6e;
     font-size: 20px;
     font-weight: 600;
     font-family: 'montserratmedium' ; 
     margin-bottom: 20px;
     }
-    section.what-we-do .box-content .box-info{
+    .box-content .box-info{
     line-height: 1.75;   
     }
     /********************************************************************LATEST WORK SECTION  ******************************************************/
-    section.latest-work {
-    background-color: #f4f8ff;
+    section.latest-work .latest__work__image{
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url('../images/background-banner.jpg');
+        height: 100%;
     }
+   
     section.latest-work .latestwork-content{
     padding: 30px 0px 0px 0px;
     }
@@ -185,6 +202,56 @@
     font-size: 20px;
     margin-left: 20px;
     }
+    /*****************************************GET STARTED****************************************************************/
+    section.get-started {
+        position: relative;
+    }
+    section.get-started .parallax-img{
+        padding: 15em 0;
+        background: #202044;
+    }
+
+    section.get-started .parallax-img:after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -50px;
+        overflow: visible;
+        width: 100%;
+        height: 120px;
+        z-index: 0;
+        -webkit-transform: skewY(4deg);
+        -moz-transform: skewY(4deg);
+        -ms-transform: skewY(4deg);
+        -o-transform: skewY(4deg);
+        transform: skewY(4deg);
+        background-color: #fff;
+    }
+    /*****************************************PRACTICES****************************************************************/
+    .practices-section .service-text {
+        padding: 10px 80px;
+    }
+    .practices-section .service-text h3{
+        font-family: 'poppinsmedium';
+    }
+    .practices-section .service-text p{
+        color:  #525050;
+        font-family: 'poppinslight';
+        font-size: 16px;
+    }
+    .practices-section .muted-heading{
+        font-size: 36px;
+        font-weight: 400!important;
+        color: #c2c2c2;
+        font-family: 'montserratregular';
+    }
+   
+    .practices-section .column-content ul li{
+        font-size: 20px;
+        list-style-type: none;
+        margin-top: 20px;
+    }
+    
     /*****************************************ABOUT****************************************************************/
     .about-background{
     background-image: url('../images/background-banner.jpg');
@@ -205,10 +272,7 @@
     height: 500px;
     border-bottom-left-radius: 80px;
     }
-    .about-container .about-para-text {
-        font-size: 23px;
-        padding: 30px 0px;
-    }
+   
     .about-container .section{
     padding: 3.5em 0em;
     }
@@ -319,6 +383,7 @@
     line-height: 29px;
     margin-bottom: 24px;
     }
+        /*****************************************RESPONSIVE****************************************************************/
     @media screen and (max-width: 480px) {
     .section{
     padding: 3.5em 0em;
